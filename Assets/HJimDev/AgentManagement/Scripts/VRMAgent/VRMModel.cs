@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UniVRM10;
 
 public class VRMModel : HumanoidModel
 {
@@ -23,7 +24,8 @@ public class VRMModel : HumanoidModel
                 rightHand = model.transform.Find("Root/J_Bip_C_Hips/J_Bip_C_Spine/J_Bip_C_Chest/J_Bip_C_UpperChest/J_Bip_R_Shoulder/J_Bip_R_UpperArm/J_Bip_R_LowerArm/J_Bip_R_Hand");
             }
             base.SetInformation();
-            model.GetComponent<VRM.VRMLookAtHead>().Target = lookAt.transform;
+            model.GetComponent<Vrm10Instance>().LookAtTarget = lookAt.transform;
+            //model.GetComponent<UniVRM10.look.VRMLookAtHead>().Target = lookAt.transform;
         }
     }
 
