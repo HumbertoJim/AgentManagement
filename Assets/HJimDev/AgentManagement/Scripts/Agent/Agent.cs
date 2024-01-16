@@ -290,7 +290,7 @@ public class Agent : ScheduleManager
         }
         else
         {
-            position = position + Random.insideUnitSphere;
+            position = transform.position + Random.insideUnitSphere;
         }
 
         if (targetMarker) targetMarker.position = position;

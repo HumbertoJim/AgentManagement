@@ -668,14 +668,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 304447772}
-  m_LocalRotation: {x: 0, y: 0.92387956, z: -0.38268343, w: 0}
-  m_LocalPosition: {x: 0, y: 10, z: 12}
+  m_LocalRotation: {x: 0, y: 0.9369775, z: -0.34938982, w: 0}
+  m_LocalPosition: {x: 0, y: 8.02, z: 10.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 45, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: 40.9, y: 180, z: 0}
 --- !u!114 &304447776
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1945,6 +1945,7 @@ GameObject:
   - component: {fileID: 1659031754}
   - component: {fileID: 1659031753}
   - component: {fileID: 1659031752}
+  - component: {fileID: 1659031756}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -2031,6 +2032,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1659031756
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1659031751}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fe531beb200e2af439a8c9bca591959a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!4 &1678252838 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6654209499488895994, guid: cc72a161e618a914e8eb0a810845b602,
