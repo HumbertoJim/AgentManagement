@@ -41,7 +41,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3321119919564999098}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 809ea25c0b593d04a998a9e30921d532, type: 3}
+  m_Script: {fileID: 11500000, guid: 4070badbc3f916f4b9e28fbe36ff2662, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   observer: {fileID: 0}
@@ -224,11 +224,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 3321119921439206247}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f57e24ae29b3ea4b85ab99a47da50da, type: 3}
+  m_Script: {fileID: 11500000, guid: cd757d23eb81404468ecb862230b1ad3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   model: {fileID: 0}
-  audioSource: {fileID: 3321119921439206242}
+  audioSource: {fileID: 0}
   head: {fileID: 0}
   leftHand: {fileID: 0}
   rightHand: {fileID: 0}

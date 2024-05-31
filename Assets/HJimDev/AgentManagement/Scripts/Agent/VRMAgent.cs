@@ -6,7 +6,7 @@ using ScheduleManagement.Schedulers;
 using ScheduleManagement.Schedulables;
 
 using AgentManagement.Actions;
-using AgentManagement.Models;
+using VRoidExtensions.Models;
 
 namespace AgentManagement
 {
